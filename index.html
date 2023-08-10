@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Costo de Viaje</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Costo de Viaje</h1>
+        <div class="input-group">
+            <label for="tipo">Tipo de Autobús:</label>
+            <select id="tipo">
+                <option value="A">Autobús A ($2.0 por km)</option>
+                <option value="B">Autobús B ($2.5 por km)</option>
+                <option value="C">Autobús C ($3.0 por km)</option>
+            </select>
+        </div>
+        <div class="input-group">
+            <label for="personas">Número de Personas:</label>
+            <input type="number" id="personas" placeholder="Personas">
+        </div>
+        <div class="input-group">
+            <label for="kilometros">Kilómetros Recorridos:</label>
+            <input type="number" id="kilometros" placeholder="Kilómetros">
+        </div>
+        <button id="calcular">Calcular Costo</button>
+        <p id="resultado"></p>
+        <p id="resultado1"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
